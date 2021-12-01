@@ -1,0 +1,19 @@
+.notfound-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notfound-heading {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .notfound-heading {
+    font-size: 48px;
+  }
+}
